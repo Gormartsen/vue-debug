@@ -22,8 +22,8 @@ export default {
         if (!app._DebugState) {
           app._DebugState = true;
           app.$debug = this.$debug;
-          this.$watch("$debug.enable",function(newValue) {
-            if(newValue == true) {
+          this.$watch("$debug.enable", function(newValue) {
+            if (newValue == true) {
               app.$debug.log = app.$debug._log
               app.$debug.error = app.$debug._error
               app.$debug.info = app.$debug._info
