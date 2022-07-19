@@ -1,0 +1,24 @@
+{
+  "name": "@gormartsen/vue-debug",
+  "version": "1.0.0",
+  "description": "Vue3 plugin to define global $debug with log,warn,error and info options",
+  "main": "index.js",
+  "scripts": {
+    "cs": "eslint --fix *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gormartsen/vue-debug.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "debug"
+  ],
+  "author": "Gormartsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gormartsen/vue-debug/issues"
+  },
+  "homepage": "https://github.com/Gormartsen/vue-debug#readme"
+}
