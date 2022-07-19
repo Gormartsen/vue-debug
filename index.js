@@ -15,6 +15,14 @@ export default {
     debug._info = window.console.info.bind(window.console);
     debug._warn = window.console.warn.bind(window.console);
 
+    if (options === true) {
+      debug.enable = true;
+      debug.log = debug._log
+      debug.error = debug._error
+      debug.info = debug._info
+      debug.warn = debug._warn      
+    }
+
     app._DebugState = false;
     app.config.globalProperties["$debug"] = reactive(debug);
     app.mixin({
